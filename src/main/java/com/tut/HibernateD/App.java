@@ -21,9 +21,9 @@ public static void main(String[] args) {
 		
 		org.hibernate.Transaction tx=session.beginTransaction();
 		
-		Student stud=new Student(106,"nakul","amravati",545885545);
+		//Student stud=new Student(101,"nakul","amravati",545885545);
 		
-		session.save(stud);
+		//session.save(stud);
 		tx.commit();
 		session.close();
 	}

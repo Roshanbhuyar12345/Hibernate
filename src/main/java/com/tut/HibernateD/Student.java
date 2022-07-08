@@ -10,6 +10,16 @@ public class Student {
 	private String name;
 	private String city;
 	private long mobile_num;
+	
+	private Certificate certi;
+
+	public Certificate getCerti() {
+		return certi;
+	}
+
+	public void setCerti(Certificate certi) {
+		this.certi = certi;
+	}
 
 	public Student(int id, String name, String city, long mobile_num) {
 		super();
